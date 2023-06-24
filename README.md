@@ -15,9 +15,9 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 5. Patch that init_boot.img file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the location of the original init_boot.img file.
 
-6. Copy the MAGISK PATCHED init_boot.img file back to your computer
+6. Copy the **magisk patched** init_boot.img file back to your computer
 
-7. Open the Android Flash Tool by Google in your browser (flash.android.com), and DESELECT the following build flags: "Wipe Device", "Lock Bootloader", "Force flash all partitions". Make sure to do this, or you will lose all personal data on the device
+7. Open the [Android Flash Tool by Google in your browser](flash.android.com), and DESELECT the following build flags: "Wipe Device", "Lock Bootloader", "Force flash all partitions". Make sure to do this, or you will lose all personal data on the device
 
 8. Click "install build". DO NOT INTERACT WITH YOUR PHONE DURING THE INSTALL PROCESS. Let it complete fully (it will take several minutes and reboot on its own several times including into a mode called "FastbootD", and finally reboot back to the lockscreen).
 
