@@ -36,3 +36,5 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 15. Now run "fastboot flash init_boot ./path/to/magisk-patched-init_boot.img"
 
 16. Once that is done, run "fastboot reboot" to restart the device. You should be updated + have Magisk installed now.
+
+## Thanks for reading!
