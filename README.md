@@ -17,18 +17,22 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 6. Copy the **magisk patched** init_boot.img file back to your computer
 
-7. Open the [Android Flash Tool by Google in your browser](flash.android.com), and DESELECT the following build flags: "Wipe Device", "Lock Bootloader", "Force flash all partitions". Make sure to do this, or you will lose all personal data on the device
+7. Open the [Android Flash Tool (AFT) by Google in your browser](flash.android.com). If you see this screen, click "More Releases": ![image](https://github.com/pritster5/Rooted-Android-Pixel-Update-Guide/assets/7132319/0f810a3d-a848-45d6-8872-7e0f96eb0e21)
 
-8. Click "install build". DO NOT INTERACT WITH YOUR PHONE DURING THE INSTALL PROCESS. Let it complete fully (it will take several minutes and reboot on its own several times including into a mode called "FastbootD", and finally reboot back to the lockscreen).
+8. Then click your current Android version (13 at the time of writing) and the AFT will automatically choose the latest stable build. Then choose "Default" unless you're on the Verizon version of the device (bless your soul, why would you do that to yourself :|) 
 
-9. Once the phone is back to the lockscreen, launch platform-tools on your connected PC.
+9. **De-Select** the following build flags: "Wipe Device", "Lock Bootloader", "Force Flash all partitions". **Make sure to do this, or you will lose all personal data on the device!**
 
-10. Check that connection to your phone via platform-tools works via "adb devices". You should see a device which represents your phone. If it says "unauthorized", make sure to hit "Allow" on the USB Debugging Notification on your phone.
+10. Click "install build". **DO NOT INTERACT WITH YOUR PHONE DURING THE INSTALL PROCESS**. Let it complete fully (it will take several minutes and reboot on its own several times including into a mode called "FastbootD", and finally reboot back to the lockscreen).
 
-11. Run "adb reboot bootloader" to get into Fastboot mode on your phone. 
+11. Once the phone is back to the lockscreen, launch platform-tools on your connected PC.
 
-12. Check that the connection persisted via "fastboot devices". You should see a similar message to step 10.
+12. Check that connection to your phone via platform-tools works via "adb devices". You should see a device which represents your phone. If it says "unauthorized", make sure to hit "Allow" on the USB Debugging Notification on your phone.
 
-13. Now run "fastboot flash init_boot ./path/to/magisk-patched-init_boot.img"
+13. Run "adb reboot bootloader" to get into Fastboot mode on your phone. 
 
-14. Once that is done, run "fastboot reboot" to restart the device. You should be updated + have Magisk installed now.
+14. Check that the connection persisted via "fastboot devices". You should see a similar message to step 10.
+
+15. Now run "fastboot flash init_boot ./path/to/magisk-patched-init_boot.img"
+
+16. Once that is done, run "fastboot reboot" to restart the device. You should be updated + have Magisk installed now.
