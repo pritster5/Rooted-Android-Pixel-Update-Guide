@@ -3,7 +3,7 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 ## Let's begin
 
-0. Assumes prerequisites are already installed: Google USB Drivers for PC-Phone interaction, platform-tools from Google, bootloader unlocked, Magisk is already up and running on phone, USB-Debugging is enabled, PC-Phone connection is set to File Transfer
+0. Assumes prerequisites are already installed: [Google's USB Drivers for PC-Phone interaction](https://developer.android.com/studio/run/win-usb), [platform-tools from Google](https://developer.android.com/tools/releases/platform-tools), [bootloader unlocked, Magisk is already up and running on phone](https://forum.xda-developers.com/t/june-20-2023-tq3a-230605-012-a1-verizon-mvnos-june-13-2023-tq3a-230605-012-global-unlock-bootloader-root-pixel-7-pro-cheetah-safetynet.4502805/), [USB-Debugging is enabled](https://www.howtogeek.com/129728/how-to-enable-developer-options-menu-and-enable-and-usb-debugging-on-android/), PC-Phone connection is set to File Transfer
 
 1. Download the latest Google Pixel 7 Pro factory image from: https://developers.google.com/android/images#cheetah
 
