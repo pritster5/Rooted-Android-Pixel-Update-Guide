@@ -5,15 +5,15 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 0. Assumes prerequisites are already installed: [Google's USB Drivers for PC-Phone interaction](https://developer.android.com/studio/run/win-usb), [platform-tools from Google](https://developer.android.com/tools/releases/platform-tools), [bootloader unlocked, Magisk is already up and running on phone](https://forum.xda-developers.com/t/june-20-2023-tq3a-230605-012-a1-verizon-mvnos-june-13-2023-tq3a-230605-012-global-unlock-bootloader-root-pixel-7-pro-cheetah-safetynet.4502805/), [USB-Debugging is enabled](https://www.howtogeek.com/129728/how-to-enable-developer-options-menu-and-enable-and-usb-debugging-on-android/), PC-Phone connection is set to File Transfer
 
-1. Download the latest Google Pixel 7 Pro factory image from: https://developers.google.com/android/images#cheetah
+1. Download the latest Google Pixel 7 Pro factory image from: <https://developers.google.com/android/images#cheetah>
 
-2. Extract the .zip that it comes in (will look something like "cheetah-tq2a.230305.008.c1.zip"). 
+2. Extract the .zip that it comes in (will look something like `"cheetah-tq2a.230305.008.c1.zip"`). 
 
-3. Extract the init_boot.img file located inside "image-cheetah-some.timestamp.build.number.zip" which is inside the zip we extracted in step 2.
+3. Extract the `init_boot.img` file located inside `"image-cheetah-some.timestamp.build.number.zip"` which is inside the zip we extracted in step 2.
 
-4. Copy that init_boot.img file to your phone. Personally, I copy it to my Downloads folder.
+4. Copy that `init_boot.img` file to your phone. Personally, I copy it to my Downloads folder.
 
-5. Patch that init_boot.img file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the location of the original init_boot.img file.
+5. Patch that `init_boot.img` file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the location of the original `init_boot.img` file.
 
 6. Copy the **magisk patched** init_boot.img file back to your computer
 
