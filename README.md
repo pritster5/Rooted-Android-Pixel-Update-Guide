@@ -15,7 +15,7 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 5. Patch that `init_boot.img` file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the location of the original `init_boot.img` file.
 
-6. Copy the **magisk patched** `init_boot.img` file back to your computer
+6. Copy the **magisk patched boot image** file (`magisk_patched-version_someRandomSequenceOfChars.img`) back to your computer
 
 7. Open the [Android Flash Tool (AFT) by Google](https://flash.android.com/) in your browser. If you see this screen, click "More Releases": ![image](https://github.com/pritster5/Rooted-Android-Pixel-Update-Guide/assets/7132319/0f810a3d-a848-45d6-8872-7e0f96eb0e21)
 
