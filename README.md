@@ -19,7 +19,7 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 6. Copy the **magisk patched boot image** file (`magisk_patched-version_someRandomSequenceOfChars.img`) back to your computer
 
-7. Open the [Android Flash Tool (AFT) by Google](https://flash.android.com/) in your browser. If you see this screen, click "More Releases": ![image](https://github.com/pritster5/Rooted-Android-Pixel-Update-Guide/assets/7132319/0f810a3d-a848-45d6-8872-7e0f96eb0e21)
+7. Open the [Android Flash Tool (AFT) by Google](https://flash.android.com/) in your browser. **If the device shows up as "Already in use", run `adb kill-server` in your computer's commandline, and then reload the AFT page.** If you see this screen, click "More Releases": ![image](https://github.com/pritster5/Rooted-Android-Pixel-Update-Guide/assets/7132319/0f810a3d-a848-45d6-8872-7e0f96eb0e21)
 
 8. Then click your current Android version (13 at the time of writing) and the AFT will automatically choose the latest stable build. Then choose "Default" unless you're on the Verizon version of the device (bless your soul, why would you do that to yourself :|) 
 
