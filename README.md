@@ -15,7 +15,7 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 4. Copy that `init_boot.img` file to your phone. Personally, I copy it to my Downloads folder.
 
-5. Patch that `init_boot.img` file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the location of the original `init_boot.img` file.
+5. Patch that `init_boot.img` file with Magisk via [1. Install -> 2. Select and Patch a File -> 3. "Let's Go"]. The file will be patched and sent to the _Downloads_ folder on your phone.
 
 6. Copy the **magisk patched boot image** file (`magisk_patched-version_someRandomSequenceOfChars.img`) back to your computer
 
