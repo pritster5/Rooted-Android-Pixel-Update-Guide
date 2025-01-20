@@ -27,7 +27,7 @@ A guide on updating the Android OS while rooted | Written for the Google Pixel 7
 
 9. **De-Select** the following build flags: "Wipe Device", "Lock Bootloader", "Force Flash all partitions". **Make sure to do this, or you will lose all personal data on the device!**
 
-10. Click "install build". **DO NOT INTERACT WITH YOUR PHONE DURING THE INSTALL PROCESS**. Let it complete fully. It will take several minutes and reboot on its own several times including into a mode called `"FastbootD"`, and finally reboot back to the lockscreen.
+10. Click "install build". **DO NOT INTERACT WITH YOUR PHONE DURING THE INSTALL PROCESS**. Let it complete fully. It will take several minutes and reboot on its own several times including into a mode called `"FastbootD"`, and finally reboot back to the lockscreen. Monitor the Android Flash Tool page and follow any instructions that may pop up. Sometimes, you may need to re-select your device from the pop-up dialog that the AFT website will show you.
 
 11. Once the phone is back to the lockscreen, unlock the phone once and then launch `platform-tools` on your connected PC. If `platform-tools` is in your `PATH` environment variable, then this is not necessary, just type `adb devices` in any command prompt/Powershell window and the command will be recognized.
 
