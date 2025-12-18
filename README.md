@@ -2,7 +2,8 @@
 A guide on updating the Android OS while rooted | Written for the Google Pixel 7 Pro | Works across Major OS Version Upgrades
 
 **NOTE: I followed this guide to update my Pixel 7 Pro from Android 13 to Android 14 and it worked without any isues at all :)**
-**UPDATE: This guide still works for the Pixel 8 series of phones**
+
+**UPDATE: This guide still works for the Pixel 8 series of phones. I used it to upgrade to Android 16**
 
 ## Let's begin
 
